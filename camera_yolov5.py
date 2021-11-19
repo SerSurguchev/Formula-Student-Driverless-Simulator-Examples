@@ -1,4 +1,5 @@
-#Import libraries
+# Result : https://github.com/SerSurguchev/Formula-Student-Driverless-Simulator-Examples/blob/main/result.mp4
+# Import libraries
 import sys
 import os
 import numpy 
