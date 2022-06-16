@@ -143,8 +143,8 @@ while (t2 - t1) < config.TIME_LIM_SEC:
          
         x_norm = round((float(xmin) + float(w_bbox) / 2) / float(im.shape[1]), 6)
         y_norm = round((float(ymin) + float(h_bbox) / 2) / float(im.shape[0]), 6)
-        h_norm = round(float(h_bbox) / float(im.shape[1]), 6)
-        w_norm = round(float(w_bbox) / float(im.shape[0]), 6)
+        h_norm = round(float(h_bbox) / float(im.shape[0]), 6)
+        w_norm = round(float(w_bbox) / float(im.shape[1]), 6)
     
         if (ymax - ymin) < 15:
             continue
