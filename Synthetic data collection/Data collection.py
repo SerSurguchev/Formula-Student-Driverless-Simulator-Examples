@@ -18,11 +18,10 @@ from img_processing import (create_bitwise,
 #Specify path
 fsds_lib_path = os.path.join(os.path.expanduser("~"), "Formula-Student-Driverless-Simulator", "python")
 sys.path.insert(0, fsds_lib_path)
+import fsds
 
 cones_lim = config.CONES_LIM
 target_speed, max_throttle = config.TARGET_SPEED, config.MAX_THROTTLE
-
-import fsds
 
 def pointgroup_to_cone(group):
     average_x = 0
