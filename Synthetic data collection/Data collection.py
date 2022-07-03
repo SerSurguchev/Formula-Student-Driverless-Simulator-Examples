@@ -159,9 +159,7 @@ while (t2 - t1) < config.TIME_LIM_SEC:
             txt_file.write(f"{cone_class} {x_norm} {y_norm} {w_norm} {h_norm}\n")
 
         if cone_class != -1:
-
             cv2.putText(im_copy, str(cone_class), (center_x, ymin + 5), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0), 1)
-
         else:
             cv2.rectangle(im_copy, (xmin, ymin), (xmax, ymax), (0), 2)
 
