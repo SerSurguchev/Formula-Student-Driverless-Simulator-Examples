@@ -41,7 +41,7 @@ def brightness_change(grad_array, orig_im):
      
     # 0 orange cone     
     # 1 blue cone
-    # 4 big orange cone
+    # 2 big orange cone
     
     if sum(increase) >= sum(decrease):
         bitwise_center = orig_im.item(round(orig_im.shape[0]/2), round(orig_im.shape[1]/2))
@@ -49,7 +49,7 @@ def brightness_change(grad_array, orig_im):
         if bitwise_center < 100:
             return 1
         else:
-            return 4
+            return 2
             
     else:
         return 0
