@@ -1,1 +1,1 @@
-# https://github.com/SerSurguchev/Formula-Student-Driverless-Simulator-Examples/blob/main/3d_reconstruction/video_result.mp4
+3d Race Reconstruction using YOLOv5 nano model as DNN model and Sparse Bundle Adjustment as a method for simultaneously optimizing a set of camera poses and visible points.
