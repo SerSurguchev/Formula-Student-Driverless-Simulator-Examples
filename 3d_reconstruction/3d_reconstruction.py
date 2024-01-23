@@ -386,7 +386,7 @@ model = config.FINAL_MODEL
 print('Model is on CUDA check: ', next(model.parameters()).is_cuda)
 
 # Connect with simulator
-client = fsds.FSDSClient(ip="192.168.137.1")
+client = fsds.FSDSClient(ip="")
 client.confirmConnection()
 client.enableApiControl(True)
 
